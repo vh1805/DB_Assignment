@@ -1,0 +1,8 @@
+Answer 1 : The relationship between the "Product" and "Product_Category" 
+entities  is Many to Many relationship. It means Many Product can have
+Many Product_Category.
+
+Answer 2: Utilize foreign key constraints in the database schema to enforce referential integrity. 
+This ensures that every category assigned to a product must exist in the "Category" table. 
+If a category is deleted or modified, the database will prevent operations that would 
+leave products with invalid category assignments.
